@@ -1,0 +1,53 @@
+* {
+  /* The html */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* This has the style for the body of the html  */
+  width: 100%;
+  height: 100vh;
+  background-image: url(asset/image/ucking.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  /* This container has the style for the main div container */
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  background-image: url(asset/image/ucking.jpeg);
+}
+
+#display {
+  /* This time controls the appearance of the span numbers */
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+h1,
+p {
+  color: #f8f8f8;
+}
+
+button {
+  /* styling for the button Element */
+  padding: 0.4rem 1rem;
+  margin: 0 0.2rem;
+  border-radius: 10px;
+  border: 1px solid#f8f8f8;
+}
+
+button:hover {
+  /* styling for the button hover */
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #f8f8f8;
+}
